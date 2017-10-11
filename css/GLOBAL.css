@@ -36,8 +36,14 @@ body {
 .bar-title {
   border-color: #616D90;
   border-width: 4px;
-  margin-right: 300px;
-  margin-left: 300px;
+  width: 60%;
+}
+
+.bar-footer {
+  border-color: #616D90;
+  border-width: 4px;
+  margin-top: 2%;
+  width: 60%;
 }
 
 .top-nav {
@@ -68,11 +74,6 @@ body {
     display: inline;
     border-bottom-width: 5px;*/
     color: #616D90;
-}
-
-.footer {
-    padding: 20px;
-    background-color: #700000;
 }
 
 
