@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/GLOBAL.css">
+    <meta name="keywords" content="Kristen Chan, UX, design, portfolio, UI, interface, user">
+    <meta name="author" content="Kristen Chan">
+
+
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<!--nav bar desktop-->
+    <div class="title" class="row">
+        <a href="index.html"><img class="header-img" width="110" height="110" src="Logos/KC_red2.png"></a>
+        <h1 class="name-title" text-align="center">KRISTEN CHAN</h1>
+        <h2 class="job-title">DESIGNER | FRONTEND DEVELOPER</h2>
+        <hr class="bar-title">
+    </div>
+
+    <div class="top-nav" id="topnav" align="center">
+        <a href="#projects">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+<!-- end nav bar desktop-->
+
+<!-- nav bar mobile
+        <a href="javascript:void(0);" class="mobile" onclick="myFunction()">&#9776;</a> -->
+<!-- end nav bar mobile-->
+</body>
+<script>
+function myFunction() {
+    var x = document.getElementById("topnav");
+    if (x.className === "top-nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "top-nav";
+    }
+}
+</script>
+
+</html>
