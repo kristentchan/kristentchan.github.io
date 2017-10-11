@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Ruluko;
+  src: url(fonts/Ruluko-regular.ttf);
+}
+
+@font-face {
+  font-family: Candara;
+  src: url(fonts/Candara.ttf);
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h3 {
+    text-align: center;
+    font-family: Ruluko;
+}
