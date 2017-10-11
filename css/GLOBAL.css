@@ -1,0 +1,105 @@
+
+@font-face {
+  font-family: Ruluko;
+  src: url(fonts/Ruluko-regular.ttf);
+}
+
+@font-face {
+  font-family: Candara;
+  src: url(fonts/Candara.ttf);
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+.header-img {
+  margin-left: 50px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.name-title {
+  margin-top: 40px;
+  font-family: Ruluko;
+  font-weight: 600;
+  font-size: 55px;
+  position: relative;
+  text-align: center;
+}
+.job-title {
+  text-align: center;
+  font-family: Ruluko;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.bar-title {
+  border-color: #616D90;
+  border-width: 4px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.top-nav {
+    font-family: Ruluko;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.top-nav a {
+    padding: 60px;
+    display: inline;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+
+.top-nav .icon {
+    display: none;
+}
+
+.top-nav a:hover {
+    /*text-transform: uppercase;
+    text-shadow: 2px 2px #616D90;*/
+    text-decoration: underline;
+    /*border-bottom: 1px solid;
+    padding-bottom: 5px;
+    display: inline;
+    border-bottom-width: 5px;*/
+    color: #616D90;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #700000;
+}
+
+
+@media screen and (max-width: 600px) {
+  .top-nav a:not(:first-child) {
+    display: none;
+  }
+  .top-nav img {
+    display: block;
+  }
+  .top-nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .top-nav.responsive {position: relative;}
+  .top-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .top-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
