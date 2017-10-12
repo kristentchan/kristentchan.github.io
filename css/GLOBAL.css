@@ -39,13 +39,6 @@ body {
   width: 60%;
 }
 
-.bar-footer {
-  border-color: #616D90;
-  border-width: 4px;
-  margin-top: 2%;
-  width: 60%;
-}
-
 .top-nav {
     font-family: Ruluko;
     list-style-type: none;
@@ -75,6 +68,25 @@ body {
     border-bottom-width: 5px;*/
     color: #616D90;
 }
+
+
+/* FOOTER CSS */
+.bar-footer {
+  border-color: #616D90;
+  border-width: 4px;
+  margin-top: 2%;
+  width: 60%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 3%;
+}
+.footer img {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
 
 
 @media screen and (max-width: 600px) {
