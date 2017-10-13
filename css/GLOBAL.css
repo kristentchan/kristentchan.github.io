@@ -17,6 +17,8 @@ body {
 }
 
 .header-img {
+  width: 90px;
+  height: 90px;
   margin-left: 50px;
   margin-top: 10px;
   position: absolute;
@@ -26,16 +28,18 @@ body {
   margin-top: 40px;
   font-family: Ruluko;
   font-weight: 600;
-  font-size: 65px;
+  font-size: 58px;
   position: relative;
   text-align: center;
 }
 
 .job-title {
+  margin-top: 1.2%;
+  margin-bottom: 1.4%;
   text-align: center;
   font-family: Ruluko;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .bar-title {
@@ -57,7 +61,7 @@ body {
     padding-right: 25px;
     display: inline;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 35px;
     color: black;
 }
 
