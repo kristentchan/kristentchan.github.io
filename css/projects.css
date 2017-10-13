@@ -5,11 +5,24 @@
 }
 
 @font-face {
-  font-family: Candara;
-  src: url(../fonts/Candara.ttf);
+  font-family: Calibril;
+  src: url(../fonts/Calibril.ttf);
 }
 
-.container {
-    margin-right: 20%;
-    margin-left: 20%;
+.container-fluid {
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.container-fluid img {
+    width: 170px;
+    height: 170px;
+    margin-left: 18%;
+    margin-right: 15%;
+}
+
+h3 {
+    text-align: center;
+    font-family: Calibril; 
 }

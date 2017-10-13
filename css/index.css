@@ -15,11 +15,30 @@
     margin-right: 15%;
 }
 
+.content img {
+
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: right;
+  position: relative;
+}
+
 h4 {
     text-align: left;
     font-family: Calibril;
     line-height: 1em;
 }
 
-    /*font-size: 2vw;
+
+
+@media screen and (max-width: 768px) {
+
+  .content img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 10%;
+  }
 }

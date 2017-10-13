@@ -4,12 +4,8 @@
 }
 
 @font-face {
-  font-family: Candara;
-  src: url(../fonts/Candara.ttf);
-}
-@font-face {
-  font-family: Corbel;
-  src: url(fonts/Corbel.ttf);
+  font-family: Cabrilil;
+  src: url(../fonts/Cabrilil.ttf);
 }
 
 body {
@@ -47,6 +43,7 @@ body {
   border-width: 4px;
   width: 65%;
 }
+
 
 .top-nav {
     margin-left: 15%;
@@ -98,29 +95,42 @@ body {
 
 
 
-@media screen and (max-width: 600px) {
-  .top-nav a:not(:first-child) {
+@media screen and (max-width: 768px) {
+  .top-nav {
     display: none;
   }
-  .top-nav img {
-    display: block;
+  .header-img {
+    display: none;
   }
-  .top-nav a.icon {
-    float: right;
-    display: block;
+  .bar-title {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .name-title {
+    font-size: 40px;
+  }
+  .job-title {
+    font-size: 25px;
+    margin-bottom: 0%;
+  }
+  .title {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+  .content img {
+    margin: 20%;
+    margin-top: 0%;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .top-nav.responsive {position: relative;}
-  .top-nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .top-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+
 }
+
+
+
+
+
+
+
+
