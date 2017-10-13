@@ -1,12 +1,14 @@
 @font-face {
   font-family: Ruluko;
-  src: url(fonts/Ruluko-regular.ttf);
+  src: url(../fonts/Ruluko-regular.ttf);
 }
 
 @font-face {
-  font-family: Candara;
-  src: url(fonts/Candara.ttf);
+  font-family: Calibril;
+  src: url(../fonts/Calibril.ttf);
 }
+
+
 
 .content {
     margin-top: 3.5%;
@@ -15,6 +17,10 @@
 }
 
 h3 {
-    text-align: center;
-    font-family: Ruluko;
+    text-align: left;
+    font-family: Calibril;
+    line-height: 1.4em;
+}
+
+    /*font-size: 2vw;
 }

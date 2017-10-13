@@ -7,6 +7,10 @@
   font-family: Candara;
   src: url(../fonts/Candara.ttf);
 }
+@font-face {
+  font-family: Corbel;
+  src: url(fonts/Corbel.ttf);
+}
 
 body {
   background-color: #fdfdfd;
@@ -22,31 +26,35 @@ body {
   margin-top: 40px;
   font-family: Ruluko;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 65px;
   position: relative;
   text-align: center;
 }
+
 .job-title {
   text-align: center;
   font-family: Ruluko;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .bar-title {
   border-color: #616D90;
   border-width: 4px;
-  width: 60%;
+  width: 65%;
 }
 
 .top-nav {
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: Ruluko;
     list-style-type: none;
     overflow: hidden;
 }
 
 .top-nav a {
-    padding: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
     display: inline;
     text-decoration: none;
     font-size: 40px;
@@ -54,9 +62,6 @@ body {
 }
 
 
-.top-nav .icon {
-    display: none;
-}
 
 .top-nav a:hover {
     /*text-transform: uppercase;

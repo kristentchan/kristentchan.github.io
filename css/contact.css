@@ -1,23 +1,19 @@
 @font-face {
-  font-family: Ruluko;
-  src: url(fonts/Ruluko-regular.ttf);
-}
-
-@font-face {
-  font-family: Candara;
-  src: url(fonts/Candara.ttf);
+  font-family: Calibril;
+  src: url(../fonts/Calibril.ttf);
 }
 
 .content {
-    padding-top: 2%;
-    margin-left: 35%;
+    padding-top: 3%;
+    margin-left: 37%;
     margin-right: 30%;
 }
 
 h3 {
     margin-top: 5%;
+    //font-size: 2em;
     text-align: left;
-    font-family: Candara;
+    font-family: Calibril;
 }
 
 .content a {
@@ -27,3 +23,46 @@ h3 {
     text-decoration: underline;
     color: #616d90;
 }
+
+.content img {
+    width: 90px;
+    height: 90px;
+    margin-right: 5%;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+.content {
+  margin-left: 20%;
+}
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+
+
+
