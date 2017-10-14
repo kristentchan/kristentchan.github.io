@@ -4,8 +4,7 @@
 }
 
 
-.content img{
-}
+
 
 h4 {
     font-family: Calibril;
@@ -33,13 +32,19 @@ h4 {
 }
 
 
+
 @media screen and (min-width: 992px) {
     .container-fluid {
         padding-top: 2%;
         padding-left: 25%;
         padding-right: 25%;
     }
-
+}
+@media screen and (max-width: 768px) {
+    .content img {
+        width: 95px;
+        height: 95px;
+    }
 }
 
 

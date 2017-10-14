@@ -103,16 +103,18 @@ body {
     display: none;
   }
   .bar-title {
-    width: 80%;
+    width: 100%;
     margin-top: 5%;
     margin-bottom: 10%;
   }
   .name-title {
     font-size: 40px;
+    text-align: left;
   }
   .job-title {
     font-size: 25px;
     margin-bottom: 0%;
+    text-align: left;
   }
   .title {
     padding-right: 6%;
@@ -122,6 +124,7 @@ body {
     margin: 20%;
     margin-top: 0%;
   }
+
 }
 
 
