@@ -3,16 +3,15 @@
   src: url(../fonts/Calibril.ttf);
 }
 
-.content {
-    padding-top: 3%;
-    margin-left: 37%;
-    margin-right: 30%;
+
+.content img{
 }
 
 h4 {
-    margin-top: 5%;
-    text-align: left;
     font-family: Calibril;
+    text-align: center;
+    margin-bottom: 20%;
+
 }
 
 .content a {
@@ -24,42 +23,24 @@ h4 {
 }
 
 .content img {
-    width: 75px;
-    height: 75px;
-    margin-right: 5%;
-}
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-.content {
-  margin-left: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
-
+@media screen and (min-width: 992px) {
+    .container-fluid {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 
 }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-
-
-}
 
 
 
