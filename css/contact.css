@@ -1,4 +1,9 @@
 @font-face {
+  font-family: Ruluko;
+  src: url(../fonts/Ruluko-regular.ttf);
+}
+
+@font-face {
   font-family: Calibril;
   src: url(../fonts/Calibril.ttf);
 }
@@ -7,7 +12,7 @@
 
 
 h4 {
-    font-family: Calibril;
+    font-family: 'Calibril';
     text-align: center;
     margin-bottom: 20%;
 
