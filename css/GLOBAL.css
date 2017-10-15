@@ -21,10 +21,9 @@ body {
 }
 
 .menu-icon{
-  display: none;
-  display: inline;
   float: right;
   position: relative;
+  display: none;
 }
 .name-title {
   margin-top: 40px;
@@ -35,6 +34,9 @@ body {
   text-align: center;
 }
 
+.below-title {
+  margin: 0%;
+}
 .job-title {
   margin-top: 1.2%;
   margin-bottom: 1.4%;
@@ -136,6 +138,8 @@ body {
     padding-right: 7%;
     padding-left: 7%;
   }
+  .below-title {
+  }
   .content img {
     margin: 20%;
     margin-top: 0%;
@@ -146,11 +150,15 @@ body {
     margin-bottom: 0%;
     text-align: left;
   }
+  .top-icons {
+    padding-right: 7%;
+    padding-left: 7%;    
+  }
 
   .footer-icon {
     display: inline;
-    width: 75px;
-    height: 60px;
+    width: 62px;
+    height: 50px;
   }
 }
 
