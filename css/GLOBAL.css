@@ -20,7 +20,7 @@ body {
   position: absolute;
 }
 
-.menu-icon{
+.menu-icon {
   float: right;
   position: relative;
   display: none;
@@ -40,11 +40,12 @@ body {
   text-align: center;
   font-family: 'Ruluko', sans-serif;
   font-weight: 400;
-  font-size: 4vw;
+  font-size: 30px;
 }
 
 .job-title2 {
   font-family: 'Ruluko', sans-serif;
+  font-size: 4vw;
   display: none;
 }
 
@@ -134,10 +135,8 @@ body {
 
   .menu-icon {
     display: inline-block !important;
-    font-size: 7vw;
-    color: black;
-    float: right;
-
+    vertical-align: baseline;
+    color: #700000;
   }
 
   .title {
