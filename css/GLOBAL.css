@@ -20,11 +20,6 @@ body {
   position: absolute;
 }
 
-.menu-icon {
-  float: right;
-  position: relative;
-  display: none;
-}
 .name-title {
   margin-top: 40px;
   font-family: 'Ruluko', sans-serif;
@@ -32,6 +27,14 @@ body {
   font-size: 5vw;
   position: relative;
   text-align: center;
+}
+
+
+.navbar-brand {
+  font-family: 'Ruluko';
+  font-size: 11.3vw;
+  text-align: left;
+  margin-top: 2%;
 }
 
 .job-title {
@@ -55,13 +58,42 @@ body {
   width: 60%;
 }
 
+.collapse {
+  margin-top: %;
+}
+.navbar {
+  margin-left: -5%;
+}
+.navbar-nav {
+  background-color: white;
+  margin-top: -4%;
+  margin-bottom: -3%;
+}
+.nav-item a {
+  font-family: 'Ruluko';
+  font-size: 6vw;
+  color: #a1a1a1;
+}
+.navbar-toggler {
+  border: none;
+  margin-top: 7%;
+  margin-bottom: 0%;
+  float: right;
+}
 
+.navbar {
+  display: none;
+}
+.fa-ellipsis-v {
+  color: #a1a1a1;
+}
+
+
+/* DESKTOP */
 .top-nav {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: 'Ruluko', sans-serif;
-    list-style-type: none;
-    overflow: hidden;
 }
 
 .top-nav a {
@@ -103,7 +135,11 @@ body {
   margin-right: 2%;
 }
 
-.fa {
+.fa-linkedin {
+  vertical-align: bottom;
+  color: #616D90;
+}
+.fa-file {
   vertical-align: bottom;
   color: #616D90;
 }
@@ -117,26 +153,23 @@ body {
   .header-img {
     display: none;
   }
+
   .top-icons {
+    margin-bottom: %;
+    padding-bottom: 0%;
     padding-right: 7%;
     padding-left: 7%;    
   }
 
+
   .name-title {
-    font-size: 11.5vw;
-    text-align: left;
-    vertical-align: ;
+    display: none;
   }
+
   .bar-title {
     width: 100%;
     margin-top: 4%;
     margin-bottom: 5%;
-  }
-
-  .menu-icon {
-    display: inline-block !important;
-    vertical-align: baseline;
-    color: #700000;
   }
 
   .title {
@@ -161,12 +194,17 @@ body {
     text-align: center;
   }
 
+  .navbar {
+    display: inline;
+  }
+
   .top-nav {
     display: none;
   }
 
   .footer-icon {
     display: inline;
+    width: 100px;
   }
 }
 
