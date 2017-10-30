@@ -9,12 +9,11 @@
 }
 
 body {
-  background-color: #fdfdfd;
 }
 
 .header-img {
-  width: 90px;
-  height: 90px;
+  width: 7vw;
+  height: 7vw;
   margin-left: 5%;
   margin-top: 10px;
   position: absolute;
@@ -29,7 +28,6 @@ body {
   text-align: center;
 }
 
-
 .navbar-brand {
   font-family: 'Ruluko';
   font-size: 11.3vw;
@@ -43,7 +41,7 @@ body {
   text-align: center;
   font-family: 'Ruluko', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 2.2vw;
 }
 
 .job-title2 {
@@ -58,22 +56,23 @@ body {
   width: 60%;
 }
 
-.collapse {
-  margin-top: %;
-}
 .navbar {
   margin-left: -5%;
 }
+
 .navbar-nav {
   background-color: white;
-  margin-top: -4%;
-  margin-bottom: -3%;
+  margin-top: -3% !important;
+  margin-bottom: -7%;
+  padding: 0px;
 }
+
 .nav-item a {
   font-family: 'Ruluko';
   font-size: 6vw;
   color: #a1a1a1;
 }
+
 .navbar-toggler {
   border: none;
   margin-top: 7%;
@@ -84,6 +83,7 @@ body {
 .navbar {
   display: none;
 }
+
 .fa-ellipsis-v {
   color: #a1a1a1;
 }
@@ -101,7 +101,7 @@ body {
     padding-right: 25px;
     display: inline;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 2.5vw;
     color: black;
 }
 
@@ -137,11 +137,11 @@ body {
 
 .fa-linkedin {
   vertical-align: bottom;
-  color: #616D90;
+  color: #a1a1a1;
 }
 .fa-file {
   vertical-align: bottom;
-  color: #616D90;
+  color: #a1a1a1;
 }
 
 .footer-icon {

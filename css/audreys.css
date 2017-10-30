@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: Ruluko;
+  src: url(../fonts/Ruluko-Regular.ttf);
+}
+
+@font-face {
+  font-family: Calibril;
+  src: url(../fonts/Calibril.ttf);
+}
+
+.container-fluid {
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.top-img {
+  display: ;
+  margin: ;
+}
+
+a :hover {
+    text-decoration: underline;
+    color: #616D90;
+}
+
+@media screen and (max-width: 786px) {
+
+
+}
