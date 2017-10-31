@@ -26,12 +26,12 @@
 h3 {
     text-align: center;
     font-family: 'Ruluko';
-    color: #616d90;
+    color: #a1a1a1;
 }
 
 a :hover {
-    text-decoration: underline;
     color: #616D90;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 786px) {
