@@ -1,13 +1,4 @@
 
-@font-face {
-  font-family: Ruluko;
-  src: url(../fonts/Ruluko-Regular.ttf);
-}
-
-@font-face {
-  font-family: Calibril;
-  src: url(../fonts/Calibril.ttf);
-}
 
 .container-fluid {
     padding-top: 3%;
@@ -23,10 +14,10 @@
     margin-bottom: 10%;
 }
 
-h3 {
+h5 {
     text-align: center;
-    font-family: 'Ruluko';
-    color: #a1a1a1;
+    font-family: 'Open Sans';
+    color: #5c5c5c;
 }
 
 a :hover {

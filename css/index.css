@@ -1,18 +1,15 @@
+
 @font-face {
-  font-family: Ruluko;
-  src: url(../fonts/Ruluko-Regular.ttf);
+  font-family: 'Crimson Text', sans-serif;
 }
 
 @font-face {
-  font-family: Calibril;
-  src: url(../fonts/Calibril.ttf);
+  font-family: 'Open Sans', sans-serif;
 }
-
-
 .content {
     margin-top: 3.5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .content img {
@@ -24,11 +21,18 @@
   width: 12vw;
 }
 
+h5 {
+  text-align: left;
+  font-family: 'Open Sans';
+  margin-bottom: 3.5%;
+  line-height: 1.4;
+}
 p {
-    text-align: left;
-    font-family: 'Calibril';
-    line-height: 1.2em;
-    font-size: 1.5vw;
+  text-align: left;
+  font-family: 'Crimson Text';
+  color: #5c5c5c;
+  line-height: 1.5;
+  font-size: 1.4vw;
 }
 
 
@@ -49,7 +53,13 @@ p {
     margin-right: 7%;
     margin-left: 7%;
   }
-  h4 {
-    font-size: 27px;
+  h5 {
+    text-align: center;
+    font-size: 7vw;
+    margin-bottom: 7%;
+  }
+  p {
+    font-size: 6.4vw;
+    line-height: 1.3;
   }
 }

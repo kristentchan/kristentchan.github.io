@@ -1,17 +1,12 @@
-@font-face {
-  font-family: Ruluko;
-  src: url(../fonts/Ruluko-Regular.ttf);
-}
 
-@font-face {
-  font-family: Calibril;
-  src: url(../fonts/Calibril.ttf);
-}
 
-h4 {
-    font-family: 'Calibril';
+
+h5 {
+    font-family: 'Open Sans';
     text-align: center;
-    margin-bottom: 4%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    color: #5c5c5c;
 }
 
 .content a {
@@ -25,8 +20,8 @@ h4 {
 .content img {
     display: block;
     margin: auto;
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     margin-bottom: 3%;
     margin-top: 8%;
 }
