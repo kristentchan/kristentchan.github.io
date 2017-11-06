@@ -60,7 +60,7 @@
 
 .navbar-toggler {
   border: none;
-  outline: 0;
+  outline: none !important;
   margin-top: 7%;
   margin-bottom: 10%;
   float: right;
