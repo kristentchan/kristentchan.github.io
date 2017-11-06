@@ -1,15 +1,9 @@
 
-@font-face {
-  font-family: 'Crimson Text', sans-serif;
-}
 
-@font-face {
-  font-family: 'Open Sans', sans-serif;
-}
 .content {
-    margin-top: 3.5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: %;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .content img {
@@ -23,22 +17,25 @@
 
 h5 {
   text-align: left;
-  font-family: 'Open Sans';
-  margin-bottom: 3.5%;
-  line-height: 1.4;
+  font-family: 'Ruluko';
+  font-size: 1.4em;
+  line-height: .8;
+  color: #700000;
 }
 p {
   text-align: left;
-  font-family: 'Crimson Text';
+  font-family: 'Montserrat';
   color: #5c5c5c;
   line-height: 1.5;
-  font-size: 1.4vw;
+  font-size: 1.1em;
 }
 
 
 
 @media screen and (max-width: 768px) {
-
+  .whole {
+    margin: 0%;
+  }
   .content img {
     float: none;
     display: block;
@@ -55,11 +52,9 @@ p {
   }
   h5 {
     text-align: center;
-    font-size: 7vw;
-    margin-bottom: 7%;
+    line-height: 1;
   }
   p {
-    font-size: 6.4vw;
     line-height: 1.3;
   }
 }

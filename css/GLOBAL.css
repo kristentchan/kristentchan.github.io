@@ -1,29 +1,21 @@
+/* GLOBAL CSS INCLUDES HEADER & FOOTER FOR EVERY PAGE*/
 
-body {
-}
-
-.header-img {
-  width: 7vw;
-  height: 7vw;
-  margin-left: 5%;
-  margin-top: 10px;
-  position: absolute;
-}
 
 .name-title {
-  margin-top: 40px;
+  padding-top: 30px;
   font-family: 'Ruluko', sans-serif;
   font-weight: 600;
-  font-size: 5vw;
+  font-size: 3.1em;
   position: relative;
   text-align: center;
 }
 
 .navbar-brand {
   font-family: 'Ruluko';
-  font-size: 11.3vw;
+  font-size: 11vw;
   text-align: left;
   margin-top: 2%;
+  position: relative;
 }
 
 .job-title {
@@ -32,7 +24,7 @@ body {
   text-align: center;
   font-family: 'Ruluko', sans-serif;
   font-weight: 400;
-  font-size: 1.6vw;
+  font-size: 1.1em;
 }
 
 .job-title2 {
@@ -42,13 +34,15 @@ body {
 }
 
 .bar-title {
-  border-color: #700000;
-  border-width: 4px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   width: 70%;
 }
 
 .navbar {
   margin-left: -5%;
+  display: none;
 }
 
 .navbar-nav {
@@ -67,32 +61,27 @@ body {
 .navbar-toggler {
   border: none;
   margin-top: 7%;
-  margin-bottom: 0%;
+  margin-bottom: 10%;
   float: right;
 }
 
-.navbar {
-  display: none;
-}
-
 .fa-ellipsis-v {
-  color: #a1a1a1;
+  color: #5c5c5c;
 }
 
 
-/* DESKTOP */
+
+/* !!!!! DESKTOP !!!!! */
 .top-nav {
-    margin-left: 20%;
-    margin-right: 20%;
     font-family: 'Ruluko', sans-serif;
 }
 
 .top-nav a {
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 1.2em;
     color: black;
 }
 
@@ -104,21 +93,20 @@ body {
 
 /* FOOTER CSS */
 .bar-footer {
-  border-color: #616D90;
-  border-width: 4px;
-  margin-top: 2%;
-  width: 60%;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 70%;
 }
 
 .footer {
   text-align: center;
-  margin-bottom: 1%;
 }
 .footer img {
   padding-right: 2%;
   padding-left: 2%;
-  width: 60px;
-  height: 45px;
+  height: 17vw;
+  width: 22vw;
 }
 
 .footer i {
@@ -144,14 +132,20 @@ body {
   .header-img {
     display: none;
   }
-
-  .top-icons {
-    margin-bottom: %;
-    padding-bottom: 0%;
-    padding-right: 7%;
-    padding-left: 7%;    
+  .nav-link {
+    background-color: white;
   }
 
+  .top-icons {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  .navbar-nav {
+    background-color: white;
+  }
 
   .name-title {
     display: none;
@@ -159,7 +153,6 @@ body {
 
   .bar-title {
     width: 100%;
-    margin-top: 4%;
     margin-bottom: 5%;
   }
 
@@ -180,7 +173,7 @@ body {
   .job-title2 {
     display: block !important;
     font-size: 5.7vw;
-    margin-top: 0%;
+    margin-top: 9%;
     margin-bottom: 0%;
     text-align: center;
   }
@@ -195,10 +188,13 @@ body {
 
   .footer-icon {
     display: inline;
-    width: 100px;
+    width: 16vw !important;
+    height: 12vw !important;
+  }
+  .bar-footer{
+    margin-bottom: 4%;
   }
 }
-
 
 
 
