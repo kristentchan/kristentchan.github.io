@@ -1,6 +1,5 @@
 /* GLOBAL CSS INCLUDES HEADER & FOOTER FOR EVERY PAGE*/
 
-
 .name-title {
   padding-top: 30px;
   font-family: 'Ruluko', sans-serif;
@@ -28,9 +27,12 @@
 }
 
 .job-title2 {
-  font-family: 'Ruluko', sans-serif;
-  font-size: 4vw;
   display: none;
+  font-family: 'Ruluko', sans-serif;
+  font-size: 5.7vw;
+  margin-top: 9%;
+  margin-bottom: 0%;
+  text-align: center;
 }
 
 .bar-title {
@@ -103,11 +105,10 @@
 .footer {
   text-align: center;
 }
-.footer img {
+.footer-icon {
   padding-right: 2%;
   padding-left: 2%;
-  height: 17vw;
-  width: 22vw;
+  max-width: 90px !important;
 }
 
 .footer i {
@@ -124,8 +125,10 @@
   color: #a1a1a1;
 }
 
-.footer-icon {
-  display: none;
+.copyright p {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: .6em;
 }
 
 
@@ -135,13 +138,16 @@
   }
   .nav-link {
     background-color: white;
+    margin-right: -10%;
   }
 
   .top-icons {
+    max-height: 197px;
     margin-bottom: 0%;
     padding-bottom: 0%;
     padding-right: 7%;
     padding-left: 7%;
+    padding-top: 1px;
   }
 
   .navbar-nav {
@@ -173,10 +179,6 @@
 
   .job-title2 {
     display: block !important;
-    font-size: 5.7vw;
-    margin-top: 9%;
-    margin-bottom: 0%;
-    text-align: center;
   }
 
   .navbar {
@@ -187,19 +189,22 @@
     display: none;
   }
 
-  .footer-icon {
-    display: inline;
-    width: 16vw !important;
-    height: 12vw !important;
-  }
   .bar-footer{
     width: 90%;
     margin-bottom: 4%;
   }
+
+  .footer-icon {
+    width: 3.9em;
+
+  }
 }
 
-
-
+@media screen and (max-width: 992px) {
+  .footer-icon {
+    max-width: 70px !important;
+  }
+}
 
 
 
