@@ -60,6 +60,7 @@
 
 .navbar-toggler {
   border: none;
+  outline: none;
   margin-top: 7%;
   margin-bottom: 10%;
   float: right;
@@ -192,6 +193,7 @@
     height: 12vw !important;
   }
   .bar-footer{
+    width: 90%;
     margin-bottom: 4%;
   }
 }
