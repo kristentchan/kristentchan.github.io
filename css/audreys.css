@@ -1,23 +1,25 @@
 
-@font-face {
-  font-family: Ruluko;
-  src: url(../fonts/Ruluko-Regular.ttf);
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
 }
-
-@font-face {
-  font-family: Calibril;
-  src: url(../fonts/Calibril.ttf);
-}
-
-.container-fluid {
-    padding-top: 3%;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
 .top-img {
-  display: ;
-  margin: ;
+  display: block;
+  margin: auto;
+  height: 40%;
+  width: 40%;
+}
+
+.position {
+  font-family: 'Ruluko';
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Ruluko';
+}
+p {
+  font-family: 'Montserrat'
 }
 
 a :hover {

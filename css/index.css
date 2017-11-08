@@ -1,7 +1,6 @@
 
 
 .content {
-    margin-top: %;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -27,6 +26,7 @@ p {
   font-family: 'Montserrat';
   color: #5c5c5c;
   line-height: 1.5;
+  letter-spacing: -.5px;
   font-size: 1.1em;
 }
 
