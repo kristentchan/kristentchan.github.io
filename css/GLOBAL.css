@@ -1,4 +1,8 @@
 /* GLOBAL CSS INCLUDES HEADER & FOOTER FOR EVERY PAGE*/
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 .name-title {
   padding-top: 30px;
@@ -133,6 +137,11 @@
 
 
 @media screen and (max-width: 786px) {
+  .content {
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+  
   .header-img {
     display: none;
   }
@@ -170,11 +179,6 @@
 
   .job-title {
     display: none;
-  }
-  
-  .content img {
-    margin: 20%;
-    margin-top: 0%;
   }
 
   .job-title2 {
