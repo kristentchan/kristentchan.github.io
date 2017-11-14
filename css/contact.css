@@ -1,16 +1,11 @@
 
-h5 {
+.content a {
     font-family: 'Montserrat';
     text-align: center;
-    margin-top: 7%;
-    margin-bottom: 7%;
     color: #5c5c5c;
     letter-spacing: -.3px;
 }
 
-.content a {
-    color: black;
-}
 .content a:hover {
     text-decoration: underline;
     color: #616d90;
@@ -22,6 +17,7 @@ h5 {
     width: 90px;
     height: 90px;
     margin-top: 8%;
+    margin-bottom: 4%;
 }
 
 @media screen and (max-width: 768px) {
