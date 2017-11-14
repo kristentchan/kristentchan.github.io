@@ -21,15 +21,8 @@ h5 {
     margin: auto;
     width: 90px;
     height: 90px;
-    margin-bottom: 3%;
-    margin-top: 8%;
 }
 
-
-
-@media screen and (min-width: 992px) {
-
-}
 @media screen and (max-width: 768px) {
     .content img {
         width: 90px;

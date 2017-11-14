@@ -1,12 +1,8 @@
-
-
-.container-fluid {
-    padding-top: 3%;
-    padding-left: 15%;
-    padding-right: 15%;
+.content {
+  margin-top: 5%;
 }
 
-.container-fluid img {
+.content img {
     width: 11vw;
     height: 11vw;
     display: block;
@@ -14,19 +10,19 @@
     margin-bottom: 10%;
 }
 
-h5 {
+.content a {
     text-align: center;
     font-family: 'Montserrat';
     color: #5c5c5c;
 }
 
-.container-fluid a :hover {
-    color: #616D90;
+.content a:hover {
+    color: #616d90;
     text-decoration: underline;
 }
 
 @media screen and (max-width: 786px) {
-  .container-fluid img {
+  .content img {
       width: 30vw;
       height: 30vw;
       display: block;
