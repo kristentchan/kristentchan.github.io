@@ -78,10 +78,16 @@ p {
   margin-bottom: 2%;
 }
 
+.bot-hr {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .extra {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .extra img {
     width: 9vw;
     height: 9vw;
@@ -111,10 +117,10 @@ p {
 #top {
   float: right;
 }
+
 .back:hover {
   text-decoration: underline !important;
 }
-
 
 @media screen and (max-width: 786px) {
   .extra img {
