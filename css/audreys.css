@@ -13,7 +13,7 @@
 h6 {
   font-family: 'Ruluko';
   color: #616d90;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-top:5%;
   margin-bottom: 2%;
 }
@@ -50,7 +50,6 @@ p {
   margin-left: 2%;
   margin-bottom: 2%;
   float: right;
-  position: relative;
   width: 40%;
   height: auto;
 }
@@ -65,15 +64,70 @@ p {
 }
 
 
-video {
+.a5 {
   display: block;
   margin: auto;
   width: 100%;
   margin-bottom: 4%;
 }
 
-@media screen and (max-width: 786px) {
+.a6 {
+  float: right;
+  display: inline;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
 
+.extra {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.extra img {
+    width: 9vw;
+    height: 9vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.extra a {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #5c5c5c;
+    text-decoration: none;
+}
+
+.extra a:hover {
+    color: #616d90;
+    text-decoration: underline;
+}
+
+.back {
+  text-decoration: none !important;
+  font-family: Ruluko;
+  font-size: 1.2em;
+}
+
+#top {
+  float: right;
+}
+.back:hover {
+  text-decoration: underline !important;
+}
+
+
+@media screen and (max-width: 786px) {
+  .extra img {
+    width: 30vw;
+    height: 30vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 4%;
+  }
+  .extra .col-sm {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
   .content img {
     margin-bottom: 4%;
   }
