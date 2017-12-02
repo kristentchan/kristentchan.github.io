@@ -12,8 +12,9 @@
 
 .content a {
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: 'Lato';
     color: #5c5c5c;
+    letter-spacing: .2px;
 }
 
 .content a:hover {

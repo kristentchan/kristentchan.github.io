@@ -8,8 +8,12 @@
 .position {
   font-family: 'Ruluko';
   text-align: center;
+  color: #5c5c5c;
 }
-
+h5 {
+  font-family: 'Lato';
+  letter-spacing: .2px;
+}
 h6 {
   font-family: 'Ruluko';
   color: #616d90;
@@ -18,21 +22,14 @@ h6 {
   margin-bottom: 2%;
 }
 p {
-  /*font-family: 'Merriweather';
-  color: #5c5c5c;
-  font-weight: 50;
-  line-height: 1.7;
-  font-size: .9em;
-  letter-spacing: .4px;*/
-
-  font-family: 'Montserrat';
+  font-family: 'Lato';
   color: #5c5c5c;
   line-height: 1.5;
-  letter-spacing: .2px;
+  letter-spacing: px;
 }
 .bullets li {
   list-style-type: circle;
-  font-family: 'Montserrat';
+  font-family: 'Lato';
   color: #5c5c5c;
   line-height: 1.5;
   letter-spacing: .2px;
@@ -81,6 +78,18 @@ p {
 .bot-hr {
   margin-top: 5%;
   margin-bottom: 5%;
+  border-top: 1px solid #gray;
+  text-align: center;
+}
+.bot-hr:after{
+  content: ' \00A7';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #ffffff;
+  color: #a1a1a1;
+  font-size: 1em;
 }
 
 .extra {
@@ -114,18 +123,14 @@ p {
   font-size: 1.2em;
 }
 
-#top {
-  float: right;
-}
-
 .back:hover {
   text-decoration: underline !important;
 }
 
 @media screen and (max-width: 786px) {
   .extra img {
-    width: 30vw;
-    height: 30vw;
+    width: 15vw;
+    height: 15vw;
     display: block;
     margin: auto;
     margin-bottom: 4%;

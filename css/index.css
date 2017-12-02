@@ -18,11 +18,10 @@ h5 {
 }
 p {
   text-align: left;
-  font-family: 'Montserrat';
+  font-family: 'Lato';
   color: #5c5c5c;
   line-height: 1.5;
-  letter-spacing: -.8px;
-  font-size: 1.1em;
+  letter-spacing: .2px;
 }
 
 

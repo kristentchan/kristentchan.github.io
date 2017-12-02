@@ -1,9 +1,9 @@
 
 .content a {
-    font-family: 'Montserrat';
+    font-family: 'Ruluko';
     text-align: center;
     color: #5c5c5c;
-    letter-spacing: -.3px;
+    letter-spacing: .5px;
 }
 
 .content a:hover {
@@ -16,14 +16,20 @@
     margin: auto;
     width: 90px;
     height: 90px;
-    margin-top: 8%;
-    margin-bottom: 4%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.row {
+    margin-bottom: 2%;
 }
 
 @media screen and (max-width: 768px) {
     .content img {
         width: 90px;
         height: 90px;
+    }
+    .row {
+        margin-bottom: 0%;
     }
 }
 
