@@ -1,19 +1,30 @@
-.top-img {
+.top-img img{
   display: block;
   margin: auto;
-  height: 40%;
-  width: 40%;
+  width: 80%;
+  height: auto;
 }
 
-.position {
-  font-family: 'Ruluko';
-  text-align: center;
-  color: #5c5c5c;
+.top-img img:hover {
+  box-shadow: 2px 2px 2px #a1a1a1;
 }
+
 h5 {
   font-family: 'Lato';
   letter-spacing: .2px;
 }
+
+.position {
+  margin-top: 4%;
+  text-align: center;
+  font-family: 'Ruluko';
+  color: #700000;
+}
+
+.position h4 {
+  font-size: 1.3em;
+}
+
 h6 {
   font-family: 'Ruluko';
   color: #616d90;
@@ -25,7 +36,7 @@ p {
   font-family: 'Lato';
   color: #5c5c5c;
   line-height: 1.5;
-  letter-spacing: px;
+  letter-spacing: .1px;
 }
 .bullets li {
   list-style-type: circle;
@@ -102,7 +113,7 @@ p {
     height: 9vw;
     display: block;
     margin: auto;
-    margin-bottom: 10%;
+    margin-bottom: 2%;
 }
 
 .extra a {
@@ -128,16 +139,17 @@ p {
 }
 
 @media screen and (max-width: 786px) {
+  .position {
+    margin-top: 0%;
+  }
   .extra img {
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
     display: block;
     margin: auto;
-    margin-bottom: 4%;
   }
   .extra .col-sm {
-    margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 6%;
   }
   .content img {
     margin-bottom: 4%;
@@ -150,7 +162,7 @@ p {
   .a1 {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 100%;
     height: auto;
     margin-left: 4%;
   }
