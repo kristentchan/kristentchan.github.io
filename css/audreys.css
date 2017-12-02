@@ -54,6 +54,9 @@ p {
   height: auto;
 }
 
+.img-cent:hover {
+  box-shadow: 2px 2px 2px #a1a1a1;
+}
 .a1 {
   margin-left: 2%;
   margin-bottom: 2%;
