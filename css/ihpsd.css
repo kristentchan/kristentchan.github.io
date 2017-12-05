@@ -1,7 +1,8 @@
 .top-img img{
   display: block;
   margin: auto;
-  width: 100%;
+  width: 90%;
+  height: auto;
 }
 .top-img img:hover {
   box-shadow: 2px 2px 2px #a1a1a1;
@@ -15,53 +16,6 @@
 .position h4 {
   font-size: 1.2em;
 }
-.img-cent {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 90%;
-  height: auto;
-}
-.img-cent:hover {
-  box-shadow: 2px 2px 2px #a1a1a1;
-}
-.paper {
-  display: block;
-  margin: auto;
-  width: 90%;
-  height: auto;
-  margin-bottom: 5%;
-}
-.color {
-  width: 100%;
-  height: auto;
-  margin-bottom: 5%;
-}
-.a1 {
-  margin-left: 2%;
-  margin-bottom: 2%;
-  float: right;
-  width: 40%;
-  height: auto;
-}
-.a4 {
-  width: 40%;
-  height: auto;
-}
-.a5 {
-  display: block;
-  margin: auto;
-  width: 100%;
-  margin-bottom: 4%;
-}
-.a6 {
-  float: right;
-  display: inline;
-  margin-left: 2%;
-  margin-bottom: 2%;
-}
-
-
 h5 {
   font-family: 'Lato';
   letter-spacing: .2px;
@@ -79,10 +33,6 @@ p {
   line-height: 1.5;
   letter-spacing: .1px;
 }
-.content a {
-  color: #616d90;
-  text-decoration: underline;
-}
 .bullets li {
   list-style-type: circle;
   font-family: 'Lato';
@@ -90,6 +40,12 @@ p {
   line-height: 1.5;
   letter-spacing: .2px;
 }
+
+.content a {
+  color: #616d90;
+  text-decoration: underline;
+}
+
 .bot-hr {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -97,7 +53,7 @@ p {
   text-align: center;
 }
 .bot-hr:after{
-  content: '\2615'; //00A7, 221E, 223E, \22B0 \22B1
+  content: '\223e'; //00A7, 221E, 223E, \22B0 \22B1
   display: inline-block;
   position: relative;
   top: -14px;
@@ -106,10 +62,12 @@ p {
   color: #a1a1a1;
   font-size: 1em;
 }
+
 .extra {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .extra img {
     width: 9vw;
     height: 9vw;
@@ -117,38 +75,32 @@ p {
     margin: auto;
     margin-bottom: 2%;
 }
+
 .extra a {
     text-align: center;
     font-family: 'Montserrat';
     color: #5c5c5c;
     text-decoration: none;
 }
+
 .extra a:hover {
     color: #616d90;
     text-decoration: underline;
 }
+
 .back {
   text-decoration: none !important;
   font-family: Ruluko;
   font-size: 1.2em;
 }
+
 .back:hover {
   text-decoration: underline !important;
 }
+
 @media screen and (max-width: 786px) {
   .position {
     margin-top: 0%;
-  }
-  .a1 {
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-    margin-left: 4%;
-  }
-  .img-cent {
-    width: 100%;
-    height: auto;
   }
   .extra img {
     width: 20vw;
@@ -161,5 +113,16 @@ p {
   }
   .content img {
     margin-bottom: 4%;
+  }
+  .img-cent {
+    width: 100%;
+    height: auto;
+  }
+  .a1 {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    margin-left: 4%;
   }
 }
