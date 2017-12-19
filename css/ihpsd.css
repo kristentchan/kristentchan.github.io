@@ -16,6 +16,47 @@
 .position h4 {
   font-size: 1.2em;
 }
+.img-cent {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  height: auto;
+}
+.img-cent:hover {
+  box-shadow: 2px 2px 2px #a1a1a1;
+}
+.col-sm img {
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.i12 {
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: right;
+  width: 30%;
+  height: auto;
+}
+.i16 {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.i17 {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.mob {
+  border: 1px solid #a1a1a1;
+}
 h5 {
   font-family: 'Lato';
   letter-spacing: .2px;
@@ -24,7 +65,7 @@ h6 {
   font-family: 'Ruluko';
   color: #616d90;
   font-size: 1.4em;
-  margin-top:5%;
+  margin-top: 4%;
   margin-bottom: 2%;
 }
 p {
@@ -40,12 +81,10 @@ p {
   line-height: 1.5;
   letter-spacing: .2px;
 }
-
 .content a {
   color: #616d90;
   text-decoration: underline;
 }
-
 .bot-hr {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -62,12 +101,10 @@ p {
   color: #a1a1a1;
   font-size: 1em;
 }
-
 .extra {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
 .extra img {
     width: 9vw;
     height: 9vw;
@@ -75,19 +112,16 @@ p {
     margin: auto;
     margin-bottom: 2%;
 }
-
 .extra a {
     text-align: center;
     font-family: 'Montserrat';
     color: #5c5c5c;
     text-decoration: none;
 }
-
 .extra a:hover {
     color: #616d90;
     text-decoration: underline;
 }
-
 .back {
   text-decoration: none !important;
   font-family: Ruluko;
@@ -118,11 +152,15 @@ p {
     width: 100%;
     height: auto;
   }
-  .a1 {
+  .i12 {
     display: block;
     margin: auto;
-    width: 100%;
+    float: none;
+    width: 95%;
     height: auto;
-    margin-left: 4%;
+  }
+  .i17 {
+    width: 50%;
+    height: auto;
   }
 }
