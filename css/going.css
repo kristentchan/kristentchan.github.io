@@ -1,7 +1,9 @@
 .top-img img{
   display: block;
   margin: auto;
+  padding: 0% 8% 8% 8%;
   width: 100%;
+  height: auto;
 }
 .top-img img:hover {
   box-shadow: 2px 2px 2px #a1a1a1;
@@ -25,44 +27,37 @@
 .img-cent:hover {
   box-shadow: 2px 2px 2px #a1a1a1;
 }
-.paper {
+.col-sm img {
   display: block;
   margin: auto;
-  width: 90%;
+  width: 95%;
   height: auto;
+  margin-top: 3%;
   margin-bottom: 5%;
 }
-
-.color {
-  width: 100%;
-  height: auto;
-  margin-bottom: 5%;
-}
-.a1 {
+.i12 {
   margin-left: 2%;
   margin-bottom: 2%;
   float: right;
-  width: 40%;
+  width: 30%;
   height: auto;
 }
-.a4 {
-  width: 40%;
-  height: auto;
-}
-.a5 {
+.i16 {
+  width: 100%;
   display: block;
   margin: auto;
-  width: 100%;
-  margin-bottom: 4%;
-}
-.a6 {
-  float: right;
-  display: inline;
-  margin-left: 2.5%;
-  margin-bottom: 2%;
 }
 
-
+.i17 {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+.mob {
+  border: 1px solid #a1a1a1;
+}
 h5 {
   font-family: 'Lato';
   letter-spacing: .2px;
@@ -80,16 +75,16 @@ p {
   line-height: 1.5;
   letter-spacing: .1px;
 }
-.content a {
-  color: #616d90;
-  text-decoration: underline;
-}
 .bullets li {
   list-style-type: circle;
   font-family: 'Lato';
   color: #5c5c5c;
   line-height: 1.5;
   letter-spacing: .2px;
+}
+.content a {
+  color: #616d90;
+  text-decoration: underline;
 }
 .bot-hr {
   margin-top: 5%;
@@ -98,7 +93,7 @@ p {
   text-align: center;
 }
 .bot-hr:after{
-  content: '\2615'; //00A7, 221E, 223E, \22B0 \22B1
+  content: '\2756'; //00A7, 221E, 223E, \22B0 \22B1
   display: inline-block;
   position: relative;
   top: -14px;
@@ -133,23 +128,14 @@ p {
   font-family: Ruluko;
   font-size: 1.2em;
 }
+
 .back:hover {
   text-decoration: underline !important;
 }
+
 @media screen and (max-width: 786px) {
   .position {
     margin-top: 0%;
-  }
-  .a1 {
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-    margin-left: 4%;
-  }
-  .img-cent {
-    width: 100%;
-    height: auto;
   }
   .extra img {
     width: 20vw;
@@ -163,9 +149,19 @@ p {
   .content img {
     margin-bottom: 4%;
   }
-  .a6 {
-    float: none;
+  .img-cent {
+    width: 100%;
+    height: auto;
+  }
+  .i12 {
     display: block;
     margin: auto;
+    float: none;
+    width: 95%;
+    height: auto;
+  }
+  .i17 {
+    width: 50%;
+    height: auto;
   }
 }
