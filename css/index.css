@@ -27,12 +27,25 @@
 
 .hover {
   padding-top: 2%;
+  border: 1px solid #ffffff;
 }
 .hover:hover {
   background-color: #ffffff;
   opacity: .75;
   transition: .1s;
-  border: 1px dotted #d5988d;
+}
+
+.hv1:hover {
+  border-top: 1px dotted #d5988d;
+  border-left: 1px dotted #d5988d;
+}
+.hv2:hover {
+  border-top: 1px dotted #d5988d;
+  border-right: 1px dotted #d5988d;
+}
+.hv3:hover {
+  border-left: 1px dotted #d5988d;
+  border-bottom: 1px dotted #d5988d;
 }
 
 @media screen and (max-width: 786px) {
