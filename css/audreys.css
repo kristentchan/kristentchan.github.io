@@ -112,21 +112,22 @@ p {
   margin-bottom: 5%;
 }
 .extra img {
-    width: 9vw;
-    height: 9vw;
-    display: block;
-    margin: auto;
-    margin-bottom: 2%;
+  width: 9vw;
+  height: 9vw;
+  display: block;
+  margin: auto;
+  margin-bottom: 7%;
 }
 .extra a {
-    text-align: center;
-    font-family: 'Montserrat';
-    color: #5c5c5c;
-    text-decoration: none;
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #5c5c5c;
+  text-decoration: none;
 }
-.extra a:hover {
-    color: #616d90;
-    text-decoration: underline;
+.extra img:hover {
+  background-color: #ffffff;
+  opacity: .5;
+  transition: .2s;
 }
 .back {
   text-decoration: none !important;

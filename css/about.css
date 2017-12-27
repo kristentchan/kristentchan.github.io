@@ -1,12 +1,11 @@
 
-
 .content img {
   margin-left: 2%;
   margin-bottom: 2%;
   float: right;
   position: relative;
-  height: 12vw;
-  width: 12vw;
+  height: 20%;
+  width: 20%;
 }
 
 h5 {
@@ -14,7 +13,13 @@ h5 {
   font-family: 'Ruluko';
   font-size: 1.4em;
   line-height: .8;
-  color: #700000;
+  color: #d5988d;
+  margin-bottom: 2%;
+}
+.desc {
+  margin-bottom:1%;
+  font-size:1.2em;
+  color:#616d90;
 }
 p {
   text-align: left;
@@ -23,9 +28,27 @@ p {
   line-height: 1.5;
   letter-spacing: .1px;
 }
-
-
-
+a {
+  font-weight: 200;
+  display: inline;
+  font-size: 1.05em;
+  color: #616d90;
+  text-decoration: none !important;
+}
+.work {
+  float: left;
+  margin-bottom: 1%;
+  font-family: 'Ruluko';
+}
+.contact {
+  float: right;
+  font-family: 'Ruluko';
+  font-size: 1.05em;
+}
+a:hover{
+  color: #d5988d;
+  text-decoration: none !important;
+}
 @media screen and (max-width: 768px) {
   .whole {
     margin: 0%;
@@ -37,8 +60,8 @@ p {
     margin-right: auto;
     margin-top: 8%;
     margin-bottom: 8%;
-    height: 110px;
-    width: 110px;
+    height: 30%;
+    width: 30%;
   }
   h5 {
     text-align: center;

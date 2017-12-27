@@ -1,4 +1,5 @@
 /* GLOBAL CSS INCLUDES HEADER & FOOTER FOR EVERY PAGE*/
+
 .content {
     margin-left: 20%;
     margin-right: 20%;
@@ -6,9 +7,9 @@
 }
 
 .name-title {
-  padding-top: 30px;
+  margin-top: 30px;
   font-family: 'Ruluko', sans-serif;
-  font-size: 3.1em;
+  font-size: 3em;
   position: relative;
   text-align: center;
   color: #5c5c5c;
@@ -25,7 +26,7 @@
 .job-title {
   margin-top: 1.2%;
   margin-bottom: 1.4%;
-  color: #700000;
+  color: #616d90;
   text-align: center;
   font-family: 'Ruluko', sans-serif;
   font-weight: 400;
@@ -35,11 +36,11 @@
 .job-title2 {
   display: none;
   font-family: 'Ruluko', sans-serif;
-  font-size: 5vw;
+  font-size: 5.4vw;
   margin-top: 9%;
   margin-bottom: 9%;
   text-align: center;
-  color: #700000;
+  color: #616d90;
 }
 
 .bar-title {
@@ -83,6 +84,8 @@
 
 /* !!!!! DESKTOP !!!!! */
 .top-nav {
+  margin-left: 20%;
+  margin-right: 20%;
   font-family: 'Ruluko', sans-serif;
 }
 
@@ -92,12 +95,12 @@
   display: inline;
   text-decoration: none;
   font-size: 1.2em;
-  color: #5c5c5c;
+  color: #a1a1a1;
 }
 
 .top-nav a:hover {
-  text-decoration: underline;
-  color: #616D90;
+  text-decoration: none;
+  color: #d5988d;
 }
 
 
@@ -107,38 +110,44 @@
   height: 1px;
   width: 60%;
   color: #a1a1a1;
+  margin-top: 0%;
 }
 
 .footer {
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
 }
 .footer-icon {
-  padding-right: 2%;
-  padding-left: 2%;
-  max-width: 90px !important;
+  padding-right: 3%;
+  padding-left: 3%;
+  width: 85px !important;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .footer i {
   margin-left: 2%;
   margin-right: 2%;
 }
-.fa-circle-thin {
-  color: #a1a1a1;
-}
 .fa-linkedin {
-  vertical-align: bottom;
+  vertical-align: middle;
   color: #a1a1a1;
 }
 .fa-file-text-o {
-  vertical-align: bottom;
+  vertical-align: middle;
   color: #a1a1a1;
 }
 
 .copyright p {
   text-align: center;
   font-family: 'Lato';
-  font-size: .7em;
+  font-size: .8em;
   color: #5c5c5c;
+  margin-top: .5%;
+  margin-bottom: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 
@@ -147,7 +156,12 @@
     margin-right: 7%;
     margin-left: 7%;
   }
-  
+  .title {
+  }
+  .footer {
+    margin-right: 7%;
+    margin-left: 7%;
+  }
   .header-img {
     display: none;
   }
