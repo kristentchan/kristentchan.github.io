@@ -1,18 +1,17 @@
 /* GLOBAL CSS INCLUDES HEADER & FOOTER FOR EVERY PAGE*/
 
 .content {
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
 }
 
 .name-title {
   margin-top: 30px;
   font-family: 'Ruluko', sans-serif;
-  font-size: 3em;
   position: relative;
   text-align: center;
-  color: #5c5c5c;
+  color: #7c7c7c;
 }
 
 .navbar-brand {
@@ -20,6 +19,7 @@
   font-size: 10vw;
   text-align: left;
   margin-top: 2%;
+  color: #6c6c6c;
   position: relative;
 }
 
@@ -62,7 +62,7 @@
   padding: 0px;
 }
 
-.nav-item a {
+.nav-link {
   font-family: 'Ruluko';
   font-size: 6vw;
   color: #5c5c5c;
@@ -77,10 +77,8 @@
 }
 
 .fa-ellipsis-v {
-  color: #5c5c5c;
+  color: #7c7c7c;
 }
-
-
 
 /* !!!!! DESKTOP !!!!! */
 .top-nav {
@@ -121,9 +119,8 @@
 .footer-icon {
   padding-right: 3%;
   padding-left: 3%;
-  width: 85px !important;
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
 .footer i {
@@ -151,12 +148,10 @@
 }
 
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 700px) {
   .content {
     margin-right: 7%;
     margin-left: 7%;
-  }
-  .title {
   }
   .footer {
     margin-right: 7%;
@@ -167,7 +162,6 @@
   }
   .nav-link {
     background-color: white;
-    margin-right: -10%;
   }
 
   .top-icons {
@@ -216,17 +210,6 @@
   .bar-footer{
     width: 90%;
     margin-bottom: 4%;
-  }
-
-  .footer-icon {
-    width: 3.9em;
-
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .footer-icon {
-    max-width: 70px !important;
   }
 }
 

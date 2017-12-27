@@ -32,7 +32,9 @@
   height: auto;
   margin-bottom: 5%;
 }
-
+.bord {
+  border: 1px solid #a1a1a1;
+}
 .color {
   width: 100%;
   height: auto;
@@ -163,6 +165,11 @@ p {
   }
   .content img {
     margin-bottom: 4%;
+  }
+  .mob {
+    display: block;
+    margin: auto;
+    width: 65%;
   }
   .a6 {
     float: none;

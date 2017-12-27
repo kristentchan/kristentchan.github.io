@@ -25,10 +25,14 @@
   text-decoration: none;
 }
 
-.content img:hover {
+.hover {
+  padding-top: 2%;
+}
+.hover:hover {
   background-color: #ffffff;
-  opacity: .5;
-  transition: .2s;
+  opacity: .75;
+  transition: .1s;
+  border: 1px dotted #d5988d;
 }
 
 @media screen and (max-width: 786px) {
