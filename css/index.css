@@ -34,7 +34,6 @@
   opacity: .75;
   transition: .1s;
 }
-
 .hv1:hover {
   border-top: 1px dotted #d5988d;
   border-left: 1px dotted #d5988d;
