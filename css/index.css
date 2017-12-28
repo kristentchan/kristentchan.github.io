@@ -47,6 +47,10 @@
   border-left: 1px dotted #d5988d;
   border-bottom: 1px dotted #d5988d;
 }
+.hv4:hover {
+  border-right: 1px dotted #d5988d;
+  border-bottom: 1px dotted #d5988d;
+}
 
 @media screen and (max-width: 786px) {
   .content img {

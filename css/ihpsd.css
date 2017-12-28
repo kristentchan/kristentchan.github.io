@@ -57,18 +57,18 @@
 .mob {
   border: 1px solid #a1a1a1;
 }
-h5 {
+.content h5 {
   font-family: 'Lato';
   letter-spacing: .2px;
 }
-h6 {
+.content h6 {
   font-family: 'Ruluko';
   color: #616d90;
   font-size: 1.4em;
   margin-top: 4%;
   margin-bottom: 2%;
 }
-p {
+.content p {
   font-family: 'Lato';
   color: #5c5c5c;
   line-height: 1.5;

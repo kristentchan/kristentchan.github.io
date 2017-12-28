@@ -3,9 +3,8 @@
 .content {
   margin-left: 17%;
   margin-right: 17%;
-  margin-top: 3%;
+  margin-top: 2%;
 }
-
 .name-title {
   margin-top: 30px;
   font-family: 'Ruluko', sans-serif;
@@ -13,7 +12,6 @@
   text-align: center;
   color: #7c7c7c;
 }
-
 .navbar-brand {
   font-family: 'Ruluko';
   font-size: 10vw;
@@ -22,34 +20,19 @@
   color: #6c6c6c;
   position: relative;
 }
-
 .job-title {
+  font-family: 'Ruluko', sans-serif;
   margin-top: 1.2%;
   margin-bottom: 1.4%;
-  color: #616d90;
-  text-align: center;
-  font-family: 'Ruluko', sans-serif;
-  font-weight: 400;
-  font-size: 1.1em;
-}
-
-.job-title2 {
-  display: none;
-  font-family: 'Ruluko', sans-serif;
-  font-size: 5.4vw;
-  margin-top: 9%;
-  margin-bottom: 9%;
   text-align: center;
   color: #616d90;
 }
-
 .bar-title {
   border: ;
   height: 1px;
   width: 66%;
   color: #a1a1a1;
 }
-
 .navbar {
   margin-left: -5%;
   display: none;
@@ -61,13 +44,11 @@
   margin-bottom: -7%;
   padding: 0px;
 }
-
 .nav-link {
   font-family: 'Ruluko';
   font-size: 6vw;
   color: #5c5c5c;
 }
-
 .navbar-toggler {
   border: none;
   outline: none !important;
@@ -75,16 +56,23 @@
   margin-bottom: 10%;
   float: right;
 }
-
 .fa-ellipsis-v {
   color: #7c7c7c;
 }
 
 /* !!!!! DESKTOP !!!!! */
 .top-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   margin-left: 17%;
   margin-right: 17%;
+  padding-top: .7%;
+  padding-bottom: .7%;
   font-family: 'Ruluko', sans-serif;
+  background-color: #fff;
+  text-align: center;
+  z-index: 100;
 }
 
 .top-nav a {
@@ -192,11 +180,7 @@
   }
 
   .job-title {
-    display: none;
-  }
-
-  .job-title2 {
-    display: block !important;
+    text-align: left;
   }
 
   .navbar {
