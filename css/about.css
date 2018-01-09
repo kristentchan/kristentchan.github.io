@@ -41,14 +41,14 @@ a {
 }
 .work {
   float: left;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   font-family: 'Ruluko';
 }
 .contact {
   float: right;
   font-family: 'Ruluko';
   font-size: 1.05em;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 a:hover{
   color: #d5988d;
