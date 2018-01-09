@@ -78,4 +78,7 @@ a:hover{
   p {
     line-height: 1.3;
   }
+  .contact {
+    margin-bottom: 5%;
+  }
 }
