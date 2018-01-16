@@ -114,15 +114,10 @@
   margin-left: 2%;
   margin-right: 2%;
 }
-.fa-linkedin {
+.fa {
   vertical-align: middle;
   color: #a1a1a1;
 }
-.fa-file-text-o {
-  vertical-align: middle;
-  color: #a1a1a1;
-}
-
 .copyright p {
   text-align: center;
   font-family: 'Lato';
@@ -133,7 +128,6 @@
   margin-left: 17%;
   margin-right: 17%;
 }
-
 
 @media screen and (max-width: 700px) {
   .content {
