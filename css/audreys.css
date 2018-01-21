@@ -15,6 +15,10 @@
 .position h4 {
   font-size: 1.2em;
 }
+.caption {
+  text-align: center;
+  font-size: .8em;
+}
 .img-cent {
   display: block;
   margin-right: auto;
@@ -48,7 +52,15 @@
   height: auto;
 }
 .a4 {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: -1%;
+  float: right;
   width: 40%;
+  height: auto;
+}
+.a4 img {
+  width: 100%;
   height: auto;
 }
 .a5 {
@@ -143,7 +155,7 @@
   .position {
     margin-top: 0%;
   }
-  .a1 {
+  .a1,.a4 {
     display: block;
     margin: auto;
     width: 100%;
