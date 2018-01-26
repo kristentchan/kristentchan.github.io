@@ -27,7 +27,7 @@
   color: #616d90;
 }
 .bar-title {
-  border: ;
+  border-width: 1px;
   height: 1px;
   width: 66%;
   color: #a1a1a1;
@@ -91,7 +91,7 @@
 
 /* FOOTER CSS */
 .bar-footer {
-  border: 1;
+  border-width: 1px;
   height: 1px;
   width: 66%;
   color: #a1a1a1;
