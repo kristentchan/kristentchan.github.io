@@ -42,12 +42,8 @@ a {
   color: #616d90;
   text-decoration: none !important;
 }
-.work {
-  float: left;
-  font-family: 'Ruluko';
-}
-.contact {
-  float: right;
+.buttons {
+  display: inline-block;
   font-family: 'Ruluko';
   font-size: 1.05em;
 }
