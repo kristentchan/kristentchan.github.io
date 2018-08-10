@@ -42,15 +42,22 @@ a {
   color: #616d90;
   text-decoration: none !important;
 }
-.buttons {
-  display: inline-block;
+.button {
+  border: 1px solid #616d90;
+  border-radius: 75px;
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
   font-family: 'Ruluko';
   font-size: 1.05em;
 }
+
 a:hover{
   color: #d5988d;
   text-decoration: none !important;
 }
+
 @media screen and (max-width: 768px) {
   .whole {
     margin: 0%;

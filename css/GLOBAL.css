@@ -113,6 +113,10 @@ ul {
   vertical-align: middle;
   color: #a1a1a1;
 }
+
+.fa:hover {
+  color: #d5988d;
+}
 .copyright p {
   text-align: center;
   font-family: 'Lato';
